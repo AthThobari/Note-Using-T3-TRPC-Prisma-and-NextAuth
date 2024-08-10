@@ -19,7 +19,7 @@ export default async function Home() {
     <>
       <main>
         <Headerr />
-        <Content />
+        {/* <Content /> */}
 
       </main>
 
@@ -27,8 +27,8 @@ export default async function Home() {
   );
 }
 
-const Content: React.FC = () => {
-  const { data: sessionData } = useSession();
+// const Content: React.FC = () => {
+//   const { data: sessionData } = useSession();
 
-  const {data: topics, refetch: refetchTopics} = api.topic.getAll.useQuery()
-}
+//   const {data: topics, refetch: refetchTopics} = api.topic.getAll.useQuery()
+// }
